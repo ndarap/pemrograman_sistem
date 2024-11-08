@@ -5,7 +5,7 @@ st.title(":blue[Daniel Ndara Palako]")
 st.write("22220044")
 
 # Load the IoT Botnet dataset
-df_botnet = pd.read_csv("/workspaces/pemrograman_sistem/UNSW_2018_IoT_Botnet_Full5pc_4.csv")
+df_botnet = pd.read_csv("unsw.csv")
 
 # Convert 'stime' (Unix timestamp) to datetime
 df_botnet["stime"] = pd.to_datetime(df_botnet["stime"], unit='s')
